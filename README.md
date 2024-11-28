@@ -1,1 +1,1 @@
-using the mern stack Media Clothing store has been created
+Using the mern stack Media Clothing store has been created
