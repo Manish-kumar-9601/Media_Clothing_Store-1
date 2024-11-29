@@ -1,9 +1,9 @@
 //Components
-import Navbar from "./Navbar";
-import Bestseller from "./Bestseller";
-import Testimonies from "./Testimonies";
-import HomePage from "./HomePage";
-import ClothInfo from "./ClothInfo";
+import Navbar from "./Navbar.jsx";
+import Bestseller from "./Bestseller.jsx";
+import Testimonies from "./Testimonies.jsx";
+import {HomePage} from "./HomePage.jsx";
+import ClothInfo from "./ClothInfo.jsx";
 // import Tempdata from "./assets/tempData.json"
 //Libraries
 import { Routes, Route  } from "react-router-dom";

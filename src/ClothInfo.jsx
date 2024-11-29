@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { Card } from "./components/card";
 function ClothInfo() {
   const URL = "https://jsonplaceholder.typicode.com/photos";
   const [data, setData] = useState([]);

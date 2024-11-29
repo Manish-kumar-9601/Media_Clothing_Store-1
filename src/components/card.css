@@ -1,0 +1,128 @@
+﻿.product .product-description,
+main[role=main] {
+    
+}
+
+.product .product-description:after,
+main[role=main]:after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 0 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    color: #31353d;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ 
+ 
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    line-height: 0;
+}
+
+main[role=main] {
+    max-width: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.product {
+    background: #000000;
+    max-width: 230px;
+    
+    position: relative;
+    z-index: 15;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product .product-description {
+    position: relative;
+    z-index: 15;
+    background: #fff;
+}
+
+.product .product-description .info {
+    text-overflow: ellipsis;
+    padding: 12px;
+    color: #aaa;
+    font-size: 0.85em;
+    width: 70%;
+    height: 100px;
+    text-wrap:balance;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.product .product-description .info h1 {
+    text-overflow: ellipsis;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.product .product-description .info p {
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+    line-height: 1.3em;
+}
+
+.product .product-description .price {
+    width: 10%;
+    float: left;
+    color: #9bb6aa;
+    font-size: 1em;
+    position: relative;
+    margin-top: 5px;
+}
+
+.product .product-description .price::before {
+    content: "$";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    font-size: 0.35em;
+}
+
+@media screen and (max-width: 480px) {
+    #content {
+        margin-top: 60px;
+    }
+}

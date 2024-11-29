@@ -8,3 +8,10 @@ body {
   background-color: orange;
   /* padding: 10px; */
 }
+
+/* homePage css */
+.productCard{
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+}
